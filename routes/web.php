@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/Inicial/ConsultaFuncionario', 'ControllerFuncionario@getConsultaFuncionario');
+Route::get('/Inicial/ConsultaTerritorio', 'ControllerTerritorio@getConsultaTerritorio');
+Route::get('/Inicial/ConsultaRegiao', 'ControllerRegiao@getConsultaRegiao');
+Route::get('/Inicial', 'ControllerPrincipal@getInicial');
