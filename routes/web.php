@@ -12,6 +12,9 @@
 */
 
 Route::get('/Inicial/ConsultaFuncionario', 'ControllerFuncionario@getConsultaFuncionario');
+Route::get('/Inicial/CadastroFuncionario', 'ControllerFuncionario@getCadastroFuncionario');
 Route::get('/Inicial/ConsultaTerritorio', 'ControllerTerritorio@getConsultaTerritorio');
+Route::get('/Inicial/CadastroTerritorio', 'ControllerTerritorio@getCadastroTerritorio');
 Route::get('/Inicial/ConsultaRegiao', 'ControllerRegiao@getConsultaRegiao');
+Route::get('/Inicial/CadastroRegiao', 'ControllerRegiao@getCadastroRegiao');
 Route::get('/Inicial', 'ControllerPrincipal@getInicial');

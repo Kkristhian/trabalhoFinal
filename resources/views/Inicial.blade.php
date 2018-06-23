@@ -20,13 +20,14 @@
                 <div class ="navbar-header">
                     <a href = "/Inicial/" class ="navbar-brand">TRABALHO FINAL WEB II</a>
                 </div>
+                
                 <div>
                     <ul class="nav nav-tabs">
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">FUNCIONÁRIO</a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="/Inicial/ConsultaFuncionario">CONSULTA FUNCIONÁRIO</a>   
-                            <a class="dropdown-item" href="">CADASTRAR FUNCIONÁRIO</a>
+                            <a class="dropdown-item" href="/Inicial/CadastroFuncionario">CADASTRAR FUNCIONÁRIO</a>
                             <a class="dropdown-item" href="">FUNCIONARIO / TERRITÓRIO</a>
                           </div>
                         </li>
@@ -34,20 +35,21 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">TERRITÓRIO</a>
                             <div class="dropdown-menu">
                                 <a class="nav-link disabled" href="/Inicial/ConsultaTerritorio">CONSULTA TERRITÓRIO</a>
-                                <a class="nav-link disabled" href="">CADASTRAR TERRITÓRIO</a>
+                                <a class="nav-link disabled" href="Inicial/CadastroTerritorio">CADASTRAR TERRITÓRIO</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">REGIÃO</a>
                             <div class="dropdown-menu">
                                 <a class="nav-link disabled" href="/Inicial/ConsultaRegiao">CONSULTA REGIÃO</a>
-                                <a class="nav-link disabled" href="">CADASTRAR REGIÃO</a>
+                                <a class="nav-link disabled" href="/Inicial/cadastroRegiao">CADASTRAR REGIÃO</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+       
         
         <div class="container">
             @yield('content')
