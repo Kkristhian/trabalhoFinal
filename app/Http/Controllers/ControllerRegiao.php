@@ -9,8 +9,7 @@ class ControllerRegiao extends Controller {
         return view('ConsultaRegiao')->with('regiao', $bRegiao);
     }
     //public function getCadastroRegiao() {
-    //    $bRegioes = DB::select('INSERT INTO regioes');
-    //    return view('CadastroRegiao')->with('regioes', $bRegiao);
-    //}
-    
+    //    $bRegiao = DB::insert("INSERT INTO regiao VALUES (idRegiao,nome) "
+    //   return view('CadastroRegiao')->with('regiao', $bRegiao);
+    //
 }

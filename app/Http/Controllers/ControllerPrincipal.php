@@ -7,5 +7,4 @@ class ControllerPrincipal extends Controller {
     public function getInicial() {
         return view('Inicial');
     }
-    
 }

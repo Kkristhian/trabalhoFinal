@@ -13,11 +13,11 @@
             <td><?= $oRegiao->IDRegiao ?></td>
             <td><?= $oRegiao->DescricaoRegiao ?></td>
             <td>
-                <a href="">
-                    <i class="far fa-edit"></i>
+            <a href="">
+                    <i  class="btn btn-primary"><span class="glyphicon glyphicon-refresh">Update</span></i>
                 </a>
                 <a href="">
-                    <i class="far fa-file-excel"></i>
+                    <i class="btn btn-danger"><span class="glyphicon glyphicon-remove">Delete</span></i>
                 </a>
             </td>
         </tr>
